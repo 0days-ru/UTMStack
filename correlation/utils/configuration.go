@@ -18,7 +18,7 @@ type Config struct {
 	ErrorLevel string `yaml:"errorLevel"`
 	UseCache string `yaml:"useCache"`
 	UseSystemRules string `yaml:"useSystemRules"`
-	UppendCompletedAlerts string `yaml:"appendCompletedAlerts"`
+	AppendCompletedAlerts string `yaml:"appendCompletedAlerts"`
 }
 
 var oneConfigRead sync.Once
