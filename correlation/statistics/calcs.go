@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/utmstack/UTMStack/correlation/sqldb"
+	"github.com/0days-ru/UTMStack/correlation/sqldb"
 )
 
 var stats = make(map[string]Stat)

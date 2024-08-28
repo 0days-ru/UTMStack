@@ -4,8 +4,8 @@ import (
 	"testing"
 	
 
-	"github.com/utmstack/UTMStack/correlation/cache"
-	"github.com/utmstack/UTMStack/correlation/rules"
+	"github.com/0days-ru/UTMStack/correlation/cache"
+	"github.com/0days-ru/UTMStack/correlation/rules"
 )
 
 func TestSearch(t *testing.T) {

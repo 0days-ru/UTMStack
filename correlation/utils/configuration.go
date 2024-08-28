@@ -16,6 +16,9 @@ type Config struct {
 		Database string `yaml:"database"`
 	} `yaml:"postgresql"`
 	ErrorLevel string `yaml:"errorLevel"`
+	useCache string `yaml:"useCache"`
+	useSystemRules string `yaml:"useSystemRules"`
+	appendCompletedAlerts string `yaml:"appendCompletedAlerts"`
 }
 
 var oneConfigRead sync.Once

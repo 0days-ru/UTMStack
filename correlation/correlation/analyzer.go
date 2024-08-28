@@ -3,8 +3,8 @@ package correlation
 import (
 	"net"
 
-	"github.com/utmstack/UTMStack/correlation/geo"
-	"github.com/utmstack/UTMStack/correlation/rules"
+	"github.com/0days-ru/UTMStack/correlation/geo"
+	"github.com/0days-ru/UTMStack/correlation/rules"
 	"github.com/tidwall/gjson"
 )
 

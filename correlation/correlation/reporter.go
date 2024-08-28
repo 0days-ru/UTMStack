@@ -10,8 +10,8 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/levigross/grequests"
-	"github.com/utmstack/UTMStack/correlation/search"
-	"github.com/utmstack/UTMStack/correlation/utils"
+	"github.com/0days-ru/UTMStack/correlation/search"
+	"github.com/0days-ru/UTMStack/correlation/utils"
 )
 
 type Host struct {
@@ -97,6 +97,17 @@ func UpdateAlert(name, severity string, details map[string]string) bool {
 				"severityLabel.keyword": severity,
 			},
 		},
+	}
+
+	if cnf.appendCompletedAlerts == "false" {
+		filter = append(filter, map[string]interface{}{
+			"term": map[string]interface{}{
+				"statusLabel.keyword": [
+					"Open",
+					"In review"
+				]
+			},
+		})
 	}
 
 	if val, ok := details["SourceIP"]; ok {

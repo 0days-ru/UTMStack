@@ -7,10 +7,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/utmstack/UTMStack/correlation/cache"
-	"github.com/utmstack/UTMStack/correlation/rules"
-	"github.com/utmstack/UTMStack/correlation/search"
-	"github.com/utmstack/UTMStack/correlation/statistics"
+	"github.com/0days-ru/UTMStack/correlation/cache"
+	"github.com/0days-ru/UTMStack/correlation/rules"
+	"github.com/0days-ru/UTMStack/correlation/search"
+	"github.com/0days-ru/UTMStack/correlation/statistics"
 )
 
 func Finder(rule rules.Rule) {

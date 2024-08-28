@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/utmstack/UTMStack/correlation/utils"
+	"github.com/0days-ru/UTMStack/correlation/utils"
 )
 
 func ListRulesFiles() []string {

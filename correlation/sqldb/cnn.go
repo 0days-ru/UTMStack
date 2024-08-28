@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/utmstack/UTMStack/correlation/utils"
+	"github.com/0days-ru/UTMStack/correlation/utils"
 	_ "github.com/lib/pq"
 )
 

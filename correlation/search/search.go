@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/utmstack/UTMStack/correlation/utils"
+	"github.com/0days-ru/UTMStack/correlation/utils"
 	"github.com/tidwall/gjson"
 )
 

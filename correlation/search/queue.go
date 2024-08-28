@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/tidwall/gjson"
-	"github.com/utmstack/UTMStack/correlation/statistics"
-	"github.com/utmstack/UTMStack/correlation/utils"
+	"github.com/0days-ru/UTMStack/correlation/statistics"
+	"github.com/0days-ru/UTMStack/correlation/utils"
 )
 
 var logs = make(chan string, 10000)

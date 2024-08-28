@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/utmstack/UTMStack/correlation/utils"
+	"github.com/0days-ru/UTMStack/correlation/utils"
 )
 
 // Goroutine for update geolocalization databases

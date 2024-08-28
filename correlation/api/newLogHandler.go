@@ -11,8 +11,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 	"github.com/tidwall/gjson"
-	"github.com/utmstack/UTMStack/correlation/cache"
-	"github.com/utmstack/UTMStack/correlation/search"
+	"github.com/0days-ru/UTMStack/correlation/cache"
+	"github.com/0days-ru/UTMStack/correlation/search"
 )
 
 // NewLog godoc

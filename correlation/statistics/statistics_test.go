@@ -3,7 +3,7 @@ package statistics_test
 import (
 	"testing"
 
-	"github.com/utmstack/UTMStack/correlation/statistics"
+	"github.com/0days-ru/UTMStack/correlation/statistics"
 )
 
 func TestOne(t *testing.T) {

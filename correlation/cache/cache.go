@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/tidwall/gjson"
-	"github.com/utmstack/UTMStack/correlation/rules"
-	"github.com/utmstack/UTMStack/correlation/utils"
+	"github.com/0days-ru/UTMStack/correlation/rules"
+	"github.com/0days-ru/UTMStack/correlation/utils"
 )
 
 const bufferSize int = 1000000
@@ -92,16 +92,19 @@ func AddToCache(l string) {
 }
 
 func ProcessQueue() {
-	numCPU := runtime.NumCPU() * 2
-	for i := 0; i < numCPU; i++ {
-		go func() {
-			for {
-				l := <-logs
-				cacheStorageMutex.Lock()
-				CacheStorage = append(CacheStorage, l)
-				cacheStorageMutex.Unlock()
-			}
-		}()
+	cnf := utils.GetConfig()
+	if cnf.useCache == "true" {
+		numCPU := runtime.NumCPU() * 2
+		for i := 0; i < numCPU; i++ {
+			go func() {
+				for {
+					l := <-logs
+					cacheStorageMutex.Lock()
+					CacheStorage = append(CacheStorage, l)
+					cacheStorageMutex.Unlock()
+				}
+			}()
+		}
 	}
 }
 

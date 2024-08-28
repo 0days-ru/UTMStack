@@ -8,3 +8,6 @@ postgresql:
   password: "POSTGRESQL_PASSWORD"
   database: POSTGRESQL_DATABASE
 errorLevel: ERROR_LEVEL
+useCache: USE_CACHE
+useSystemRules: USE_SYSTEM_RULES
+appendCompletedAlerts: APPEND_COMPLETED_ALERTS
