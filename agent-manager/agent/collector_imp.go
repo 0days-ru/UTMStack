@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/utmstack/UTMStack/agent-manager/models"
-	"github.com/utmstack/UTMStack/agent-manager/util"
+	"github.com/0days-ru/UTMStack/agent-manager/models"
+	"github.com/0days-ru/UTMStack/agent-manager/util"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"

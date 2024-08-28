@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/sophos/configuration"
-	"github.com/utmstack/UTMStack/sophos/utils"
+	"github.com/0days-ru/UTMStack/sophos/configuration"
+	"github.com/0days-ru/UTMStack/sophos/utils"
 )
 
 func SendToCorrelation(data []TransformedLog) *logger.Error {

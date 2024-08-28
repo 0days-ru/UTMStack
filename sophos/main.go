@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/utmstack/UTMStack/sophos/configuration"
-	"github.com/utmstack/UTMStack/sophos/processor"
-	"github.com/utmstack/UTMStack/sophos/utils"
+	"github.com/0days-ru/UTMStack/sophos/configuration"
+	"github.com/0days-ru/UTMStack/sophos/processor"
+	"github.com/0days-ru/UTMStack/sophos/utils"
 	utmconf "github.com/utmstack/config-client-go"
 	"github.com/utmstack/config-client-go/enum"
 	"github.com/utmstack/config-client-go/types"

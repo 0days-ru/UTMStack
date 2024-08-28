@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/utmstack/UTMStack/agent/agent/utils"
+	"github.com/0days-ru/UTMStack/agent/agent/utils"
 )
 
 const REPLACE_KEY string = ""

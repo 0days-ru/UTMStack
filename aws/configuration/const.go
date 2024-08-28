@@ -1,6 +1,6 @@
 package configuration
 
-import "github.com/utmstack/UTMStack/aws/utils"
+import "github.com/0days-ru/UTMStack/aws/utils"
 
 const (
 	CORRELATIONURL = "http://correlation:8080/v1/newlog"

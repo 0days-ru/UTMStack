@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/utmstack/UTMStack/office365/configuration"
-	"github.com/utmstack/UTMStack/office365/processor"
-	"github.com/utmstack/UTMStack/office365/utils"
+	"github.com/0days-ru/UTMStack/office365/configuration"
+	"github.com/0days-ru/UTMStack/office365/processor"
+	"github.com/0days-ru/UTMStack/office365/utils"
 	utmconf "github.com/utmstack/config-client-go"
 	"github.com/utmstack/config-client-go/enum"
 	"github.com/utmstack/config-client-go/types"

@@ -2,8 +2,8 @@ package serv
 
 import (
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/agent/updater/configuration"
-	"github.com/utmstack/UTMStack/agent/updater/utils"
+	"github.com/0days-ru/UTMStack/agent/updater/configuration"
+	"github.com/0days-ru/UTMStack/agent/updater/utils"
 )
 
 // UninstallService uninstalls the service in the system

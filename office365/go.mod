@@ -1,4 +1,4 @@
-module github.com/utmstack/UTMStack/office365
+module github.com/0days-ru/UTMStack/office365
 
 go 1.21.0
 

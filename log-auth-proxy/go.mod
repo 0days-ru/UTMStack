@@ -1,4 +1,4 @@
-module github.com/utmstack/UTMStack/log-auth-proxy
+module github.com/0days-ru/UTMStack/log-auth-proxy
 
 go 1.21.0
 

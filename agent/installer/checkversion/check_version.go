@@ -6,8 +6,8 @@ import (
 	"runtime"
 
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/agent/runner/agent"
-	"github.com/utmstack/UTMStack/agent/runner/utils"
+	"github.com/0days-ru/UTMStack/agent/runner/agent"
+	"github.com/0days-ru/UTMStack/agent/runner/utils"
 )
 
 func CleanOldVersions(h *logger.Logger) error {

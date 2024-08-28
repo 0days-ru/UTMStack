@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/sophos/utils"
+	"github.com/0days-ru/UTMStack/sophos/utils"
 	"github.com/utmstack/config-client-go/types"
 )
 

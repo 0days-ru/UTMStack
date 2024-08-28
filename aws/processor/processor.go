@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/aws/utils"
+	"github.com/0days-ru/UTMStack/aws/utils"
 	"github.com/utmstack/config-client-go/types"
 )
 

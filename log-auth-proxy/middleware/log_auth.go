@@ -12,9 +12,9 @@ import (
 	"sync"
 
 	"github.com/gin-gonic/gin"
-	"github.com/utmstack/UTMStack/log-auth-proxy/config"
-	"github.com/utmstack/UTMStack/log-auth-proxy/logservice"
-	"github.com/utmstack/UTMStack/log-auth-proxy/utils"
+	"github.com/0days-ru/UTMStack/log-auth-proxy/config"
+	"github.com/0days-ru/UTMStack/log-auth-proxy/logservice"
+	"github.com/0days-ru/UTMStack/log-auth-proxy/utils"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

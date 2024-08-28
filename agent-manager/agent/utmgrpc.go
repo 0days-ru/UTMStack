@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/utmstack/UTMStack/agent-manager/service"
+	"github.com/0days-ru/UTMStack/agent-manager/service"
 	grpc "google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

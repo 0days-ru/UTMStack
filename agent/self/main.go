@@ -4,9 +4,9 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/utmstack/UTMStack/agent/self/configuration"
-	"github.com/utmstack/UTMStack/agent/self/update"
-	"github.com/utmstack/UTMStack/agent/self/utils"
+	"github.com/0days-ru/UTMStack/agent/self/configuration"
+	"github.com/0days-ru/UTMStack/agent/self/update"
+	"github.com/0days-ru/UTMStack/agent/self/utils"
 )
 
 func main() {

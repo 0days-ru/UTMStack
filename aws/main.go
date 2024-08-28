@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/utmstack/UTMStack/aws/configuration"
-	"github.com/utmstack/UTMStack/aws/processor"
-	"github.com/utmstack/UTMStack/aws/utils"
+	"github.com/0days-ru/UTMStack/aws/configuration"
+	"github.com/0days-ru/UTMStack/aws/processor"
+	"github.com/0days-ru/UTMStack/aws/utils"
 	utmconf "github.com/utmstack/config-client-go"
 	"github.com/utmstack/config-client-go/enum"
 	"github.com/utmstack/config-client-go/types"

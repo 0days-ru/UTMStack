@@ -5,10 +5,10 @@ import (
 	"net"
 	"strings"
 
-	"github.com/utmstack/UTMStack/log-auth-proxy/config"
-	"github.com/utmstack/UTMStack/log-auth-proxy/logservice"
-	"github.com/utmstack/UTMStack/log-auth-proxy/middleware"
-	"github.com/utmstack/UTMStack/log-auth-proxy/utils"
+	"github.com/0days-ru/UTMStack/log-auth-proxy/config"
+	"github.com/0days-ru/UTMStack/log-auth-proxy/logservice"
+	"github.com/0days-ru/UTMStack/log-auth-proxy/middleware"
+	"github.com/0days-ru/UTMStack/log-auth-proxy/utils"
 )
 
 func HandleRequest(conn net.Conn, interceptor *middleware.LogAuthInterceptor, logOutputService *logservice.LogOutputService) {

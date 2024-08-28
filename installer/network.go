@@ -7,8 +7,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/utmstack/UTMStack/installer/templates"
-	"github.com/utmstack/UTMStack/installer/utils"
+	"github.com/0days-ru/UTMStack/installer/templates"
+	"github.com/0days-ru/UTMStack/installer/utils"
 )
 
 type Vlan struct {

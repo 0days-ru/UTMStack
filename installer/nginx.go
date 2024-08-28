@@ -3,9 +3,9 @@ package main
 import (
 	"path"
 
-	"github.com/utmstack/UTMStack/installer/templates"
-	"github.com/utmstack/UTMStack/installer/types"
-	"github.com/utmstack/UTMStack/installer/utils"
+	"github.com/0days-ru/UTMStack/installer/templates"
+	"github.com/0days-ru/UTMStack/installer/types"
+	"github.com/0days-ru/UTMStack/installer/utils"
 )
 
 func InstallNginx() error {

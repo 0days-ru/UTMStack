@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/utmstack/UTMStack/agent/updater/configuration"
-	"github.com/utmstack/UTMStack/agent/updater/utils"
+	"github.com/0days-ru/UTMStack/agent/updater/configuration"
+	"github.com/0days-ru/UTMStack/agent/updater/utils"
 )
 
 // getLatestVersion returns the latest version of the service

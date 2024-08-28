@@ -1,4 +1,4 @@
-module github.com/utmstack/UTMStack/installer
+module github.com/0days-ru/UTMStack/installer
 
 go 1.21.0
 

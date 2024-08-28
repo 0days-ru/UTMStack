@@ -1,4 +1,4 @@
-module github.com/utmstack/UTMStack/sophos
+module github.com/0days-ru/UTMStack/sophos
 
 go 1.21.1
 

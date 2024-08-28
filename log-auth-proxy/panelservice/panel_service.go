@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/utmstack/UTMStack/log-auth-proxy/config"
+	"github.com/0days-ru/UTMStack/log-auth-proxy/config"
 )
 
 var PanelUrl = os.Getenv(config.UTMHostEnv)

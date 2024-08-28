@@ -3,7 +3,7 @@ package filters
 import (
 	"regexp"
 
-	"github.com/utmstack/UTMStack/agent/agent/configuration"
+	"github.com/0days-ru/UTMStack/agent/agent/configuration"
 )
 
 var RegexspBeats = map[configuration.LogType]string{

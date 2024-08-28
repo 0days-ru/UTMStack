@@ -1,4 +1,4 @@
-module github.com/utmstack/UTMStack/agent/redline
+module github.com/0days-ru/UTMStack/agent/redline
 
 go 1.21.1
 

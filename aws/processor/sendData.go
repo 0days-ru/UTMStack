@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/aws/configuration"
-	"github.com/utmstack/UTMStack/aws/utils"
+	"github.com/0days-ru/UTMStack/aws/configuration"
+	"github.com/0days-ru/UTMStack/aws/utils"
 )
 
 func SendToCorrelation(data []TransformedLog) *logger.Error {

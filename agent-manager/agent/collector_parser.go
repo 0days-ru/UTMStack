@@ -1,7 +1,7 @@
 package agent
 
 import (
-	"github.com/utmstack/UTMStack/agent-manager/models"
+	"github.com/0days-ru/UTMStack/agent-manager/models"
 )
 
 // protoToModelCollectorGroupConfiguration Convert a single CollectorGroupConfigurations from proto to model.

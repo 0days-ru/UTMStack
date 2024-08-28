@@ -5,8 +5,8 @@ import (
 	"path"
 	"time"
 
-	"github.com/utmstack/UTMStack/installer/types"
-	"github.com/utmstack/UTMStack/installer/utils"
+	"github.com/0days-ru/UTMStack/installer/types"
+	"github.com/0days-ru/UTMStack/installer/utils"
 )
 
 func Master(c *types.Config) error {

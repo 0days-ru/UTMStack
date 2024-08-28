@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/utmstack/UTMStack/agent/runner/configuration"
-	"github.com/utmstack/UTMStack/agent/runner/utils"
+	"github.com/0days-ru/UTMStack/agent/runner/configuration"
+	"github.com/0days-ru/UTMStack/agent/runner/utils"
 )
 
 func DownloadDependencies(servBins ServicesBin, ip string, skip string) error {

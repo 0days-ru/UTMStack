@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/agent-manager/config"
-	"github.com/utmstack/UTMStack/agent-manager/models"
-	"github.com/utmstack/UTMStack/agent-manager/util"
+	"github.com/0days-ru/UTMStack/agent-manager/config"
+	"github.com/0days-ru/UTMStack/agent-manager/models"
+	"github.com/0days-ru/UTMStack/agent-manager/util"
 	"gorm.io/gorm"
 )
 

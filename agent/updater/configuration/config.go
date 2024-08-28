@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/utmstack/UTMStack/agent/updater/utils"
+	"github.com/0days-ru/UTMStack/agent/updater/utils"
 )
 
 type Config struct {

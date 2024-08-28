@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/utmstack/UTMStack/installer/utils"
+	"github.com/0days-ru/UTMStack/installer/utils"
 )
 
 type LogstashConfig struct {

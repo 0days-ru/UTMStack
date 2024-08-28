@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/utmstack/UTMStack/installer/utils"
+	"github.com/0days-ru/UTMStack/installer/utils"
 	"gopkg.in/yaml.v3"
 )
 

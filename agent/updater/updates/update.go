@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/agent/updater/configuration"
+	"github.com/0days-ru/UTMStack/agent/updater/configuration"
 )
 
 func UpdateServices(cnf configuration.Config, utmLogger *logger.Logger) {

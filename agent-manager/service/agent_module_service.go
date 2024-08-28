@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/utmstack/UTMStack/agent-manager/models"
-	"github.com/utmstack/UTMStack/agent-manager/repository"
+	"github.com/0days-ru/UTMStack/agent-manager/models"
+	"github.com/0days-ru/UTMStack/agent-manager/repository"
 )
 
 type AgentModuleService struct {

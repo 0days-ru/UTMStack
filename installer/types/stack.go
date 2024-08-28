@@ -3,7 +3,7 @@ package types
 import (
 	sigar "github.com/cloudfoundry/gosigar"
 	"github.com/shirou/gopsutil/v3/cpu"
-	"github.com/utmstack/UTMStack/installer/utils"
+	"github.com/0days-ru/UTMStack/installer/utils"
 )
 
 type StackConfig struct {

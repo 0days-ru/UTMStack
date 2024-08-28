@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/utmstack/UTMStack/log-auth-proxy/config"
-	"github.com/utmstack/UTMStack/log-auth-proxy/panelservice"
-	"github.com/utmstack/UTMStack/log-auth-proxy/utils"
+	"github.com/0days-ru/UTMStack/log-auth-proxy/config"
+	"github.com/0days-ru/UTMStack/log-auth-proxy/panelservice"
+	"github.com/0days-ru/UTMStack/log-auth-proxy/utils"
 )
 
 var transport = &http.Transport{

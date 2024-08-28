@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/utmstack/UTMStack/log-auth-proxy/config"
+	"github.com/0days-ru/UTMStack/log-auth-proxy/config"
 )
 
 func (s *Grpc) ProcessLogs(_ context.Context, req *LogMessage) (*ReceivedMessage, error) {

@@ -3,7 +3,7 @@ package configuration
 import (
 	"path/filepath"
 
-	"github.com/utmstack/UTMStack/agent/runner/utils"
+	"github.com/0days-ru/UTMStack/agent/runner/utils"
 )
 
 type ServicesBin struct {

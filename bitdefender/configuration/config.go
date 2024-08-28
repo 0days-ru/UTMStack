@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/bitdefender/constants"
+	"github.com/0days-ru/UTMStack/bitdefender/constants"
 	"github.com/utmstack/config-client-go/enum"
 	"github.com/utmstack/config-client-go/types"
 

@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/agent/agent/configuration"
+	"github.com/0days-ru/UTMStack/agent/agent/configuration"
 )
 
 var (

@@ -2,7 +2,7 @@ package serv
 
 import (
 	"github.com/kardianos/service"
-	"github.com/utmstack/UTMStack/agent/redline/configuration"
+	"github.com/0days-ru/UTMStack/agent/redline/configuration"
 )
 
 // GetConfigServ creates and returns a pointer to a service configuration structure.

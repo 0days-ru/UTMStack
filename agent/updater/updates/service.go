@@ -7,8 +7,8 @@ import (
 	"sync"
 
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/agent/updater/configuration"
-	"github.com/utmstack/UTMStack/agent/updater/utils"
+	"github.com/0days-ru/UTMStack/agent/updater/configuration"
+	"github.com/0days-ru/UTMStack/agent/updater/utils"
 )
 
 type UTMServices struct {

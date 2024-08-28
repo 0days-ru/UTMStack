@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/agent/agent/agent"
-	"github.com/utmstack/UTMStack/agent/agent/configuration"
-	"github.com/utmstack/UTMStack/agent/agent/utils"
+	"github.com/0days-ru/UTMStack/agent/agent/agent"
+	"github.com/0days-ru/UTMStack/agent/agent/configuration"
+	"github.com/0days-ru/UTMStack/agent/agent/utils"
 )
 
 type LogProcessor struct {

@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/kardianos/service"
-	"github.com/utmstack/UTMStack/agent/redline/configuration"
-	"github.com/utmstack/UTMStack/agent/redline/protector"
-	"github.com/utmstack/UTMStack/agent/redline/utils"
+	"github.com/0days-ru/UTMStack/agent/redline/configuration"
+	"github.com/0days-ru/UTMStack/agent/redline/protector"
+	"github.com/0days-ru/UTMStack/agent/redline/utils"
 )
 
 type program struct{}

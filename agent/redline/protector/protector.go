@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/agent/redline/configuration"
-	"github.com/utmstack/UTMStack/agent/redline/utils"
+	"github.com/0days-ru/UTMStack/agent/redline/configuration"
+	"github.com/0days-ru/UTMStack/agent/redline/utils"
 )
 
 func ProtectService(servName, lockName string, h *logger.Logger) {

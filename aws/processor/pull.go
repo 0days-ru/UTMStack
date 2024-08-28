@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/aws/utils"
+	"github.com/0days-ru/UTMStack/aws/utils"
 	"github.com/utmstack/config-client-go/types"
 )
 

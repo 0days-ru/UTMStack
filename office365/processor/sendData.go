@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/utmstack/UTMStack/office365/configuration"
-	"github.com/utmstack/UTMStack/office365/utils"
+	"github.com/0days-ru/UTMStack/office365/configuration"
+	"github.com/0days-ru/UTMStack/office365/utils"
 )
 
 func SendToCorrelation(data []TransformedLog) error {

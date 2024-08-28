@@ -10,14 +10,14 @@ import (
 	"syscall"
 
 	"github.com/kardianos/service"
-	pb "github.com/utmstack/UTMStack/agent/agent/agent"
-	"github.com/utmstack/UTMStack/agent/agent/beats"
-	"github.com/utmstack/UTMStack/agent/agent/configuration"
-	"github.com/utmstack/UTMStack/agent/agent/conn"
-	"github.com/utmstack/UTMStack/agent/agent/logservice"
-	"github.com/utmstack/UTMStack/agent/agent/modules"
-	"github.com/utmstack/UTMStack/agent/agent/redline"
-	"github.com/utmstack/UTMStack/agent/agent/utils"
+	pb "github.com/0days-ru/UTMStack/agent/agent/agent"
+	"github.com/0days-ru/UTMStack/agent/agent/beats"
+	"github.com/0days-ru/UTMStack/agent/agent/configuration"
+	"github.com/0days-ru/UTMStack/agent/agent/conn"
+	"github.com/0days-ru/UTMStack/agent/agent/logservice"
+	"github.com/0days-ru/UTMStack/agent/agent/modules"
+	"github.com/0days-ru/UTMStack/agent/agent/redline"
+	"github.com/0days-ru/UTMStack/agent/agent/utils"
 	"google.golang.org/grpc/metadata"
 )
 

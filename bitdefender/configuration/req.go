@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"net/http"
 
-	"github.com/utmstack/UTMStack/bitdefender/constants"
-	"github.com/utmstack/UTMStack/bitdefender/utils"
+	"github.com/0days-ru/UTMStack/bitdefender/constants"
+	"github.com/0days-ru/UTMStack/bitdefender/utils"
 	"github.com/utmstack/config-client-go/types"
 )
 

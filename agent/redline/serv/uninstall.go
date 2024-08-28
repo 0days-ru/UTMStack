@@ -2,8 +2,8 @@ package serv
 
 import (
 	"github.com/threatwinds/logger"
-	"github.com/utmstack/UTMStack/agent/redline/configuration"
-	"github.com/utmstack/UTMStack/agent/redline/utils"
+	"github.com/0days-ru/UTMStack/agent/redline/configuration"
+	"github.com/0days-ru/UTMStack/agent/redline/utils"
 )
 
 func UninstallService(h *logger.Logger) {

@@ -7,9 +7,9 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/utmstack/UTMStack/bitdefender/configuration"
-	"github.com/utmstack/UTMStack/bitdefender/server"
-	"github.com/utmstack/UTMStack/bitdefender/utils"
+	"github.com/0days-ru/UTMStack/bitdefender/configuration"
+	"github.com/0days-ru/UTMStack/bitdefender/server"
+	"github.com/0days-ru/UTMStack/bitdefender/utils"
 	"github.com/utmstack/config-client-go/types"
 )
 

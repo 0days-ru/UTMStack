@@ -1,4 +1,4 @@
-module github.com/utmstack/UTMStack/bitdefender
+module github.com/0days-ru/UTMStack/bitdefender
 
 go 1.21.1
 

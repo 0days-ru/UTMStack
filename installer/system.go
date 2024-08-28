@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/utmstack/UTMStack/installer/utils"
+	"github.com/0days-ru/UTMStack/installer/utils"
 )
 
 func PrepareSystem() error {

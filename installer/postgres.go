@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	_ "github.com/lib/pq"
-	"github.com/utmstack/UTMStack/installer/types"
+	"github.com/0days-ru/UTMStack/installer/types"
 )
 
 func InitPgUtmstack(c *types.Config) error {

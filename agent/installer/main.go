@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/utmstack/UTMStack/agent/runner/checkversion"
-	"github.com/utmstack/UTMStack/agent/runner/configuration"
-	"github.com/utmstack/UTMStack/agent/runner/depend"
-	"github.com/utmstack/UTMStack/agent/runner/services"
-	"github.com/utmstack/UTMStack/agent/runner/utils"
+	"github.com/0days-ru/UTMStack/agent/runner/checkversion"
+	"github.com/0days-ru/UTMStack/agent/runner/configuration"
+	"github.com/0days-ru/UTMStack/agent/runner/depend"
+	"github.com/0days-ru/UTMStack/agent/runner/services"
+	"github.com/0days-ru/UTMStack/agent/runner/utils"
 )
 
 func main() {

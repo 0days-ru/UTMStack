@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/kardianos/service"
-	"github.com/utmstack/UTMStack/agent/updater/configuration"
-	"github.com/utmstack/UTMStack/agent/updater/updates"
-	"github.com/utmstack/UTMStack/agent/updater/utils"
+	"github.com/0days-ru/UTMStack/agent/updater/configuration"
+	"github.com/0days-ru/UTMStack/agent/updater/updates"
+	"github.com/0days-ru/UTMStack/agent/updater/utils"
 )
 
 type program struct{}

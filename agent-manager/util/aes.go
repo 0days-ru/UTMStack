@@ -4,9 +4,9 @@ import (
 	"os"
 
 	"github.com/AtlasInsideCorp/AtlasInsideAES"
-	"github.com/utmstack/UTMStack/agent-manager/config"
-	"github.com/utmstack/UTMStack/agent-manager/enum"
-	"github.com/utmstack/UTMStack/agent-manager/models"
+	"github.com/0days-ru/UTMStack/agent-manager/config"
+	"github.com/0days-ru/UTMStack/agent-manager/enum"
+	"github.com/0days-ru/UTMStack/agent-manager/models"
 )
 
 var (

@@ -1,4 +1,4 @@
-module github.com/utmstack/UTMStack/agent/runner
+module github.com/0days-ru/UTMStack/agent/runner
 
 go 1.21.1
 

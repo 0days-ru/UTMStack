@@ -1,6 +1,6 @@
 package configuration
 
-import "github.com/utmstack/UTMStack/sophos/utils"
+import "github.com/0days-ru/UTMStack/sophos/utils"
 
 const (
 	CORRELATIONURL = "http://correlation:8080/v1/newlog"

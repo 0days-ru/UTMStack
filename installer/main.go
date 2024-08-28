@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/utmstack/UTMStack/installer/utils"
-	"github.com/utmstack/UTMStack/installer/types"
+	"github.com/0days-ru/UTMStack/installer/utils"
+	"github.com/0days-ru/UTMStack/installer/types"
 )
 
 func main() {

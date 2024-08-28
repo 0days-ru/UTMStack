@@ -1,4 +1,4 @@
-module github.com/utmstack/UTMStack/agent-manager
+module github.com/0days-ru/UTMStack/agent-manager
 
 go 1.21.1
 

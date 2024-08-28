@@ -1,4 +1,4 @@
-module github.com/utmstack/UTMStack/agent/updater
+module github.com/0days-ru/UTMStack/agent/updater
 
 go 1.21.1
 

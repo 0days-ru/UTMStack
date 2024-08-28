@@ -13,9 +13,9 @@ import (
 	"github.com/tehmaze/netflow/session"
 	"github.com/threatwinds/logger"
 	"github.com/threatwinds/validations"
-	"github.com/utmstack/UTMStack/agent/agent/configuration"
-	"github.com/utmstack/UTMStack/agent/agent/logservice"
-	"github.com/utmstack/UTMStack/agent/agent/parser"
+	"github.com/0days-ru/UTMStack/agent/agent/configuration"
+	"github.com/0days-ru/UTMStack/agent/agent/logservice"
+	"github.com/0days-ru/UTMStack/agent/agent/parser"
 )
 
 var (

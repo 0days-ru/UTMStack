@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/utmstack/UTMStack/agent/runner/depend"
-	"github.com/utmstack/UTMStack/agent/runner/utils"
+	"github.com/0days-ru/UTMStack/agent/runner/depend"
+	"github.com/0days-ru/UTMStack/agent/runner/utils"
 )
 
 func ConfigureServices(bins depend.ServicesBin, ip, utmKey, skip, config string) error {

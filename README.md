@@ -4,11 +4,11 @@
 </h1>
 
 <p align="center">
-<a href="https://github.com/utmstack/UTMStack/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/utmstack/utmstack">
-<a href="https://github.com/utmstack/UTMStack/releases/"><img src="https://img.shields.io/github/release/utmstack/utmstack">
-<a href="https://github.com/utmstack/UTMStack/issues"><img src="https://img.shields.io/github/issues-raw/utmstack/utmstack">
-<a href="https://github.com/utmstack/UTMStack/commits/main"><img src="https://img.shields.io/github/commit-activity/m/utmstack/utmstack">
-<a href="https://github.com/utmstack/UTMStack/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ad-aures/castopod?color=blue">
+<a href="https://github.com/0days-ru/UTMStack/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/utmstack/utmstack">
+<a href="https://github.com/0days-ru/UTMStack/releases/"><img src="https://img.shields.io/github/release/utmstack/utmstack">
+<a href="https://github.com/0days-ru/UTMStack/issues"><img src="https://img.shields.io/github/issues-raw/utmstack/utmstack">
+<a href="https://github.com/0days-ru/UTMStack/commits/main"><img src="https://img.shields.io/github/commit-activity/m/utmstack/utmstack">
+<a href="https://github.com/0days-ru/UTMStack/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ad-aures/castopod?color=blue">
 <a href="https://discord.gg/ZznvZ8xcHh"><img src="https://img.shields.io/discord/1154016563775672400.svg?logo=discord">
 </p>
 
@@ -97,7 +97,7 @@ The installation can be performed using an installer file or an [ISO image](http
 
 - Update packages list: `sudo apt update`
 - Install WGET: `sudo apt install wget`
-- Download the latest version of the installer by typing `wget http://github.com/utmstack/UTMStack/releases/latest/download/installer`
+- Download the latest version of the installer by typing `wget http://github.com/0days-ru/UTMStack/releases/latest/download/installer`
 - Change to root user: `sudo su`
 - Set execution permissions with `chmod +x installer`
 

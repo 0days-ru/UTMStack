@@ -1,4 +1,4 @@
-module github.com/utmstack/UTMStack/aws
+module github.com/0days-ru/UTMStack/aws
 
 go 1.21.1
 

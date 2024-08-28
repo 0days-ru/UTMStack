@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/utmstack/UTMStack/agent-manager/agent"
-	"github.com/utmstack/UTMStack/agent-manager/config"
-	"github.com/utmstack/UTMStack/agent-manager/util"
+	"github.com/0days-ru/UTMStack/agent-manager/agent"
+	"github.com/0days-ru/UTMStack/agent-manager/config"
+	"github.com/0days-ru/UTMStack/agent-manager/util"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

@@ -1,4 +1,4 @@
-module github.com/utmstack/UTMStack/correlation
+module github.com/0days-ru/UTMStack/correlation
 
 go 1.21
 
