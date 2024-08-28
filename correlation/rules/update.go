@@ -11,7 +11,7 @@ import (
 func Update(updateReady chan bool) {
 	first := true
 	cnf := utils.GetConfig()
-	if cnf.useSystemRules == "true" {
+	if cnf.UseSystemRules == "true" {
 		for {
 			log.Println("Downloading rules")
 			

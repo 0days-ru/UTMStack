@@ -93,7 +93,7 @@ func AddToCache(l string) {
 
 func ProcessQueue() {
 	cnf := utils.GetConfig()
-	if cnf.useCache == "true" {
+	if cnf.UseCache == "true" {
 		numCPU := runtime.NumCPU() * 2
 		for i := 0; i < numCPU; i++ {
 			go func() {
