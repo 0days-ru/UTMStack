@@ -104,8 +104,8 @@ func UpdateAlert(name, severity string, details map[string]string) bool {
 			"term": map[string]interface{}{
 				"statusLabel.keyword": []string{
 					"Open",
-					"In review"
-				}
+					"In review",
+				},
 			},
 		})
 	}
