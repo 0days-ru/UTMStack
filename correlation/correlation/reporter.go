@@ -102,10 +102,10 @@ func UpdateAlert(name, severity string, details map[string]string) bool {
 	if cnf.AppendCompletedAlerts == "false" {
 		filter = append(filter, map[string]interface{}{
 			"term": map[string]interface{}{
-				"statusLabel.keyword": [
+				"statusLabel.keyword": []string{
 					"Open",
 					"In review"
-				]
+				}
 			},
 		})
 	}
