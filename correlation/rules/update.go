@@ -33,6 +33,7 @@ func Update(updateReady chan bool) {
 		}
 	} else {
 		log.Println("System rules update disabled")
+		updateReady <- true
 	}
 }
 
