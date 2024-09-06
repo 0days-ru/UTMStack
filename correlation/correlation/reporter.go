@@ -99,14 +99,6 @@ func UpdateAlert(name, severity string, details map[string]string) bool {
 		},
 	}
 
-	if cnf.AppendCompletedAlerts == "false" {
-		filter = append(filter, map[string]interface{}{
-			"term": map[string]interface{}{
-				"statusLabel.keyword": "Open",
-			},
-		})
-	}
-
 	if val, ok := details["SourceIP"]; ok {
 		if val != "" {
 			filter = append(filter, map[string]interface{}{
@@ -171,12 +163,27 @@ func UpdateAlert(name, severity string, details map[string]string) bool {
 		}
 	}
 
-	var request = map[string]interface{}{
-		"query": map[string]interface{}{
-			"bool": map[string]interface{}{
-				"filter": filter,
+	if cnf.AppendCompletedAlerts == "false" {
+		var request = map[string]interface{}{
+			"query": map[string]interface{}{
+				"bool": map[string]interface{}{
+					"filter": filter,
+					"must_not": map[string]interface{}{
+						"term": map[string]interface{}{
+							"statusLabel.keyword": "Completed",
+						},
+					},
+				},
 			},
-		},
+		}
+	} else {
+		var request = map[string]interface{}{
+			"query": map[string]interface{}{
+				"bool": map[string]interface{}{
+					"filter": filter,
+				},
+			},
+		}
 	}
 
 	response, err := grequests.Post(cnf.Elasticsearch+"/"+index+"/_search", &grequests.RequestOptions{
